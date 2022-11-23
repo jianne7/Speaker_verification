@@ -32,6 +32,7 @@ Speaker Verification Project with Speechbrain
     ```python
     import torchaudio
     from speechbrain.pretrained import EncoderClassifier
+    
     classifier = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb", savedir="pretrained_models/spkrec-ecapa-voxceleb")
     signal, fs =torchaudio.load('tests/samples/ASR/spk1_snt1.wav')
     embeddings = classifier.encode_batch(signal)

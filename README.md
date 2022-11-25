@@ -1,5 +1,5 @@
 # Speaker_verification
-Speaker Verification Project with Speechbrain
+Speaker Verification Project with Speechbrain (2022.04 ~ 2022.12)
 
 ## Speechbrain Model
 
